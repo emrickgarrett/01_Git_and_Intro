@@ -6,7 +6,7 @@ Practice with basic git functions, and intro to study of Data Structures
 Reading
 =======
 
-Version Control with Git, 2nd Ed. Loeliger and McCullough. 
+**Version Control with Git, 2nd Ed**. Loeliger and McCullough. 
 
 http://proquest.safaribooksonline.com/book/databases/content-management-systems/9781449345037/version-control-with-git/id302681?uicode=ohlink (Free access through www.lib.miamioh.edu, but limited to 100 simultaneous users across all OhioLink. I recommend downloading/printing the required readings ahead of time, just in case.)
 
@@ -26,7 +26,7 @@ Read only the following:
   * Git concepts at work (read all)
 4. Chapter 21: Git and Github
 
-Open Data Structures in C++. Morin. 
+**Open Data Structures in C++**. Morin. 
 
 http://opendatastructures.org/ (Free access. I recommend downloading the PDF version.)
 
@@ -49,11 +49,17 @@ Homework
 Exercises
 =========
 
-Morin, Exercise 1.1 (p. 23)
+1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
+----
+
+2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
+----
+
+3. Morin, Exercise 1.1 (p. 23)
 ---------
 
 
-Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
+4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 ---------
 
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
