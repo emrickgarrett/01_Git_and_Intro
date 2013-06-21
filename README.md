@@ -11,6 +11,7 @@ Version Control with Git, 2nd Ed. Loeliger and McCullough.
 http://proquest.safaribooksonline.com/book/databases/content-management-systems/9781449345037/version-control-with-git/id302681?uicode=ohlink (Free access through www.lib.miamioh.edu, but limited to 100 simultaneous users across all OhioLink. I recommend downloading/printing the required readings ahead of time, just in case.)
 
 Read only the following:
+
 1. Chapter 1
   * Background
   * The Birth of Git
@@ -30,6 +31,7 @@ Open Data Structures in C++. Morin.
 http://opendatastructures.org/ (Free access. I recommend downloading the PDF version.)
 
 Read the following:
+
 1. Chapter 1 (pp. 1-20)
 
 Homework
