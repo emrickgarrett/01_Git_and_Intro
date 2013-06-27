@@ -1,3 +1,6 @@
+Author
+==========
+Bo Brinkman, brinkmwj
 01_Git_and_Intro
 ================
 
