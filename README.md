@@ -1,3 +1,6 @@
+Author
+==========
+Andy Shear, shearar
 01_Git_and_Intro
 ================
 
