@@ -68,3 +68,11 @@ Exercises
 Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
 
 [Your answer here]
+
+#### 5. Define/explain each of the following terms, as they relate to git.
+
+1. blob - TODO
+2. tree - TODO
+3. commit - TODO
+4. repo - TODO
+5. hash - TODO
