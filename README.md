@@ -88,4 +88,4 @@ Note: You should not need to write any real computer code for any of these. Inst
 
 Exercise 1.4
 
-
+The stack is a LIFO data structure, so the element at the head of the stack will be removed by the pop method.  Begin by popping the first item from the stack, and add it to the queue.  Repeat this until all elements are popped from the stack.  The queue will have added the first item popped from the stack to the bottom of the queue, and so on.  Then, remove items from the queue, and push them all back to the stack.  Since the queue is a FIFO data structure, the first element removed is the element that was formerly at the top of the stack.  This is the first element to be added back to the stack, so it will end up at the bottom of the stack, resulting in the stack having its elements added back in reverse order.
