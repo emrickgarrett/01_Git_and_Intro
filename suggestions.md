@@ -1,0 +1,11 @@
+The reading about Git was very helpful in understanding how Git shell works, since we used Git hub for the old 274 class.
+
+I really like how the open data structures book starts with a discussion on efficiency, then moves directly to interfaces.  In Dr Simko's labs, we started with pointers, as most of the header files were written for us.  His labs taught us how to use C++ and run programs in Visual Studio, but we did not understand the real reasons for some of the things we were doing until later in the semester.  I think learning about some general interfaces and how to use them to properly organize data FIRST will give students a more root understanding of this class before getting into unfamilliar topics.  The following sections about runtime are also good to understand at the beginning of the class; now each new concept introduced can be compared based on its efficiency, and students can see why certain data structures are better than others for a specific application.  This progression of concepts shows students the importance of data structures in todays big-data world at the beginning of the class.
+
+Questions:
+Im assuming you will go over a bunch of material in class before this lab, so im not sure what concepts have been introduced and which ones have not.  For a few of my answers to Excersize 1.1, I used a linked list data structure.  I was able to apply the relevant interfaces to all but the last 2 questions, as I was able to answer those with simple array manipulation. (Please let me know if I did the last 2 incorrectly)
+
+The questions were good though, they made me apply all of what I read about interfaces.  Helped me visualize how they were supposed to work.
+
+Suggestions:
+Again, not sure what you will cover in class, but I suggest introducing the concept of linked lists before this lab.  Also, some discussion about memory management would be helpful, as a lot of the questions had statements like "Take special care so that a file with a lot of duplicate lines does not use more memory than what is required for the number of unique lines".  The reading and homework took me about 8 hours to complete.  I can imagine it might take a little longer for someone who is unfamiliar with how these interfaces function.
