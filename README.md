@@ -113,7 +113,7 @@ void printStuff(the file data){
 Final Comments By Myself:
 I had to do some code, although I tried to do as little as possible.
 The best solution I could think of was to do it recursively, which requires something I 
-couldn't quite figure out how to get just right. I hope what I have is acceptable.
+couldn't quite figure out how to get just right without some sort of code. I hope what I have is acceptable.
 - Garrett
 }
 
