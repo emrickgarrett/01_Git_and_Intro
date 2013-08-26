@@ -171,5 +171,9 @@ A tree also has the ability to recursively reference itself, and other trees.
 3. commit - A commit, as an object as it relates to Git, is an object that contains meta data for each change introduced into the repository, including the authors information.
 Each commit points to one tree object, that has a "snapshot" of the repository when that commit was made. All commits can be traced backwards to the previous commit, eventually leading
 to the intial commit, or first commit of a repository.
-4. repo - TODO
-5. hash - TODO
+4. repo - A repo, or repository, is a database that holds all the information needed to retain and manage all the revisions and history of a project.
+Git, like most other repo systems, has a complete version at all times of the current project, from start to finish. Users of Git can create local repositories on their own system,
+or they can use GitHub to create public repositories to collaborate with other users who have internet access!
+5. hash - A hash, as related to Git, is a specific code or group of characters that is specific and (for the most part) unique to any file, commit, or project that would be used in Git.
+Because of how a hash is generated, identical files, projects, and the like will have identical hash code. The probability of a collision, or when two unlike files have the same hash code,
+is very unlikely, and should not be of any concern with just about any project. In Git, it is also referred to as the SHA1 code/fingerprint, or the object ID.
