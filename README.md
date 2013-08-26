@@ -119,9 +119,49 @@ couldn't quite figure out how to get just right without some sort of code. I hop
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-Note: You should not need to write any real computer code for any of these. Instead, explain how you would approach the problem using a combination of English and pseudocode. The goal is to write something that is understandable by any programmer, even if the two of you have never used the same computer language. (In other words, assume the other person does not know the syntax of Java or C/C++, but knows the basic programming constructs such as for loops, if statements, variables, and so on.)
+//For this problem I still think the best solution would be recursively, so I basically modified my above Pseudocode.
+//The only differences is the new loopThroughFile "method" and a simple check in the printStuff "method" to see if it's the 50th line.
 
-[Your answer here]
+//Simple PseudoCode class example of reading a file, and printing in reverse order every 50 lines
+class exampleOne{
+
+main(){
+	File file = new File(); // Create a file to use, assume it has all the input
+	
+	//Get the files data
+	
+	loopThroughFile(the file data); //Call a method to loop through the file data, and printing the lines correctly.
+	
+	//Other code here
+}
+
+
+lineCount = 1; // The current amount of lines, starting at 0.
+
+void loopThroughFile(the file data){
+
+	while(the file data has next line){
+		printStuff(the file data);
+		lineCount = 1; // Reset the count to 1, and restart the recursive method
+	}
+}
+
+void printStuff(the file data){
+	
+	if(there is not a next line) return; // Exit if it reaches the end of the file, return, thus printing the rest of the data in reverse order!
+	
+	if(lineCount equals 50){
+		return; // Exit the printStuff, printing all the data
+	}
+	nextLine = (next line of the file data);
+	printStuff(rest of the file data);
+	
+	print(nextLine);
+}
+
+Final Comments: I am not sure if it's the best way, but it seemed to be the best way from what I know. Hope this answer is acceptable.
+
+- Garrett
 
 #### 5. Define/explain each of the following terms, as they relate to git.
 
