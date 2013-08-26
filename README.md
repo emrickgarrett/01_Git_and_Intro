@@ -71,7 +71,15 @@ way of versioning and saving code whenever possible. If one didn't want their co
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
-[Your answer here]
+If you forgot your USB and had no online repository, such as one you would have it you had GitHub, you would have to run all the way back to get your USB drive,
+or restart from scratch on what you had, if anything.
+
+If you were starting new anyways, or decide to start new, the smart thing would be to use GitHub as an online storage and also to compare work with the rest of your
+homework friends. This would allow you to compare your answers, and even fork eachothers respositories and use modify them as your own. If it was a group project,
+you could even use one single repository, and make changes as a team instead of having to try and organize code sending through email or USB's.
+
+Then when you went home after working on your homework with friends, you could simply pull from the repo, and make changes from your home computer, making the whole
+task of keeping track of where your project is stored, and getting that project later, much easier.
 
 #### 3. Morin, Exercise 1.1 (p. 23)
 
