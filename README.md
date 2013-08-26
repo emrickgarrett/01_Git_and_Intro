@@ -83,7 +83,31 @@ task of keeping track of where your project is stored, and getting that project 
 
 #### 3. Morin, Exercise 1.1 (p. 23)
 
-[Your answer here]
+//I want to do this Recursively, although I'm not sure how to any less "code" than this...
+
+//Simple PseudoCode class example of reading a file, and printing in reverse order
+class exampleOne{
+
+main(){
+	File file = new File(); // Create a file to use, assume it has all the input
+	printStuff(the file data); //Call a method to print the lines
+}
+
+void printStuff(the file data){
+	nextLine = (next line of the file data);
+	printStuff(rest of the file data);
+	
+	print(nextLine);
+}
+
+
+
+Final Comments By Myself:
+I had to do some code, although I tried to do as little as possible.
+The best solution I could think of was to do it recursively, which requires something I 
+couldn't quite figure out how to get just right. I hope what I have is acceptable.
+- Garrett
+}
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
