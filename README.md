@@ -83,30 +83,33 @@ task of keeping track of where your project is stored, and getting that project 
 
 #### 3. Morin, Exercise 1.1 (p. 23)
 
-  //I want to do this Recursively, although I'm not sure how to any less "code" than this... 
+//I want to do this Recursively, although I'm not sure how to any less "code" than this... 
 
-  //Simple PseudoCode class example of reading a file, and printing in reverse order
-  class exampleOne{
+//Simple PseudoCode class example of reading a file, and printing in reverse order
+class exampleOne{
 
-  main(){
-	  File file = new File(); // Create a file to use, assume it has all the input
-	
-	  //Get the files data
-	
-	  printStuff(the file data); //Call a method to print the lines
-	
-	  //Other code here
-  }
+main(){
 
-  void printStuff(the file data){
+File file = new File(); // Create a file to use, assume it has all the input
 	
-	  if(there is not a next line) return; // Exit if it reaches the end of the file, thus printing the rest of the data in reverse order!
+//Get the files data
+	
+printStuff(the file data); //Call a method to print the lines
+	
+//Other code here
+	  
+}//End of Main
 
-	  nextLine = (next line of the file data);
-	  printStuff(rest of the file data);
+void printStuff(the file data){
 	
-	  print(nextLine);
-  }
+if(there is not a next line) return; // Exit if it reaches the end of the file, thus printing the rest of the data in reverse order!
+
+nextLine = (next line of the file data);
+printStuff(rest of the file data);
+	
+print(nextLine);
+
+}//End of printStuff
 
 
 
@@ -119,44 +122,52 @@ couldn't quite figure out how to get just right without some sort of code. I hop
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
-  //For this problem I still think the best solution would be recursively, so I basically modified my above Pseudocode. The only differences is the new loopThroughFile "method" and a simple check in the printStuff "method" to see if it's the 50th line.
+//For this problem I still think the best solution would be recursively, so I basically modified my above Pseudocode. The only differences is the new loopThroughFile "method" and a simple check in the printStuff "method" to see if it's the 50th line.
 
-  //Simple PseudoCode class example of reading a file, and printing in reverse order every 50 lines
-  class exampleOne{
+//Simple PseudoCode class example of reading a file, and printing in reverse order every 50 lines
+class exampleOne{
 
-  main(){
-	  File file = new File(); // Create a file to use, assume it has all the input
+main(){
+
+File file = new File(); // Create a file to use, assume it has all the input
 	
-	  //Get the files data
+//Get the files data
 	
-	  loopThroughFile(the file data); //Call a method to loop through the file data, and printing the lines correctly.
+loopThroughFile(the file data); //Call a method to loop through the file data, and printing the lines correctly.
 	
-	  //Other code here
-  }
+//Other code here
+
+}//End of Main
 
 
-  lineCount = 1; // The current amount of lines, starting at 0.
+lineCount = 1; // The current amount of lines, starting at 0.
 
-  void loopThroughFile(the file data){
+void loopThroughFile(the file data){
 
-	  while(the file data has next line){
-		  printStuff(the file data);
-		  lineCount = 1; // Reset the count to 1, and restart the recursive method
-	  }
-  }
+while(the file data has next line){
 
-  void printStuff(the file data){
+printStuff(the file data);
+lineCount = 1; // Reset the count to 1, and restart the recursive method
+
+}//endwhile
+
+}// End of loopThroughFile
+
+void printStuff(the file data){
 	
-	  if(there is not a next line) return; // Exit if it reaches the end of the file, return, thus printing the rest of the data in reverse order!
+if(there is not a next line) return; // Exit if it reaches the end of the file, return, thus printing the rest of the data in reverse order!
 	
-	  if(lineCount equals 50){
-		  return; // Exit the printStuff, printing all the data
-	  }
-	  nextLine = (next line of the file data);
-	  printStuff(rest of the file data);
+if(lineCount equals 50){
+return; // Exit the printStuff, printing all the data
+
+} //endif
+
+nextLine = (next line of the file data);
+printStuff(rest of the file data);
 	
-	  print(nextLine);
-  }
+print(nextLine);
+
+}//End of printStuff
 
 Final Comments: I am not sure if it's the best way, but it seemed to be the best way from what I know. Hope this answer is acceptable.
 
@@ -165,14 +176,18 @@ Garrett
 #### 5. Define/explain each of the following terms, as they relate to git.
 
 1. blob - A blob in Git basically stores all a files data, with no access to it's meta data or it's name. Blob is a contraction of Binary Large OBject.
+
 2. tree - A tree in Git represents a single level of directory information. A tree contains identifiers of Blobs, path names, and also some of their meta deta, all in one location.
 A tree also has the ability to recursively reference itself, and other trees.
+
 3. commit - A commit, as an object as it relates to Git, is an object that contains meta data for each change introduced into the repository, including the authors information.
 Each commit points to one tree object, that has a "snapshot" of the repository when that commit was made. All commits can be traced backwards to the previous commit, eventually leading
 to the intial commit, or first commit of a repository.
+
 4. repo - A repo, or repository, is a database that holds all the information needed to retain and manage all the revisions and history of a project.
 Git, like most other repo systems, has a complete version at all times of the current project, from start to finish. Users of Git can create local repositories on their own system,
 or they can use GitHub to create public repositories to collaborate with other users who have internet access!
+
 5. hash - A hash, as related to Git, is a specific code or group of characters that is specific and (for the most part) unique to any file, commit, or project that would be used in Git.
 Because of how a hash is generated, identical files, projects, and the like will have identical hash code. The probability of a collision, or when two unlike files have the same hash code,
 is very unlikely, and should not be of any concern with just about any project. In Git, it is also referred to as the SHA1 code/fingerprint, or the object ID.
