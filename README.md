@@ -53,7 +53,21 @@ Exercises
 
 #### 1. Based on the reading in the Git book, is it okay to keep your local copy of your repo on a USB drive and just carry it around? Explain why or why not. What about keeping it on the M: drive?
 
-[Your answer here]
+Based on the reading in the book, I would presume it not to be okay. As common knowledge, devices can fail and corruption can also occur,
+which could affect you significantly if your local copy of the repo is only kept on a USB drive.
+
+The Git book we read also had some other good points, such as how GitHub can be very useful for collaboration. If working with a team,
+using an online storage that also utilizes Git, and has the several helpful features such as branching, merging, tracking, and many other features,
+is really helpful to any Software Development. It also allows for the ability to perhaps one day declare it open source, and to have the community work
+on it, but also allows there to be several copies of the code, that are not only up to date, but also online which is much more reliable than a USB drive
+or local repository. This also removes the need to carry around the copy of the repo on a USB drive, and can be opened anywhere with an internet connection.
+
+Keeping it on the M drive is somewhat more reliable than a USB or your local drive, but is not nearly as easy to access as a GitHub repository if you are not using a Miami Computer.
+In order to get onto your M drive you would have to navigate the Miami website to find out where to access this online drive, and many times it is very slow to access and download these
+files.
+
+With that being said, the M drive is better than a USB in some aspects, but an online repository such as Github is definitely superior, and should be the preferred
+way of versioning and saving code whenever possible. If one didn't want their code to be public, they could even pay a small monthly fee of $7 for 5 private repositories.
 
 #### 2. Imagine that you come into the lab on the weekend to work on homework with friends, but you forgot to bring your USB drive with your repo on it. What should you do?
 
