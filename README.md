@@ -141,7 +141,7 @@ main(){
 }//End of Main
 
 
-lineCount = 1; // The current amount of lines, starting at 0.
+lineCount = 1; // The current amount of lines, starting at 1.
 
 void loopThroughFile(the file data){
 
