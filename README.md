@@ -90,10 +90,18 @@ class exampleOne{
 
 main(){
 	File file = new File(); // Create a file to use, assume it has all the input
+	
+	//Get the files data
+	
 	printStuff(the file data); //Call a method to print the lines
+	
+	//Other code here
 }
 
 void printStuff(the file data){
+	
+	if(there is not a next line) return; // Exit if it reaches the end of the file, thus printing the rest of the data in reverse order!
+
 	nextLine = (next line of the file data);
 	printStuff(rest of the file data);
 	
