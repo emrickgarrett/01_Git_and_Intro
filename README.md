@@ -1,3 +1,6 @@
+Author
+==========
+"Emrick, Garrett", emrickgj
 01_Git_and_Intro
 ================
 
@@ -82,44 +85,38 @@ Then when you went home after working on your homework with friends, you could s
 task of keeping track of where your project is stored, and getting that project later, much easier.
 
 #### 3. Morin, Exercise 1.1 (p. 23)
-
+```
 //I want to do this Recursively, although I'm not sure how to any less "code" than this... 
 
 //Simple PseudoCode class example of reading a file, and printing in reverse order
 class exampleOne{
-
-main(){
-
-* File file = new File(); // Create a file to use, assume it has all the input
+  main(){
+    File file = new File(); // Create a file to use, assume it has all the input
 	
-* //Get the files data
+    //Get the files data
 	
-* printStuff(the file data); //Call a method to print the lines
+    printStuff(the file data); //Call a method to print the lines
 	
-* //Other code here
+    //Other code here
 	  
-}//End of Main
+  }//End of Main
 
-void printStuff(the file data){
-	
-* if(there is not a next line) return; // Exit if it reaches the end of the file, thus printing the rest of the data in reverse order!
+  void printStuff(the file data){
+    if(there is not a next line) return; // Exit if it reaches the end of the file, thus printing the rest of the data in reverse order!
 
-* nextLine = (next line of the file data);
-* printStuff(rest of the file data);
-	
-* print(nextLine);
+    nextLine = (next line of the file data);
+    printStuff(rest of the file data);
+    print(nextLine);
+  }//End of printStuff
 
-}//End of printStuff
-
-
-
-Final Comments By Myself:
+/*Final Comments By Myself:
 I had to do some code, although I tried to do as little as possible.
 The best solution I could think of was to do it recursively, which requires something I 
-couldn't quite figure out how to get just right without some sort of code. I hope what I have is acceptable.
+couldn't quite figure out how to get just right without some sort of code. I hope what I have is acceptable.*/
 
-Garrett
+//Garrett
 }
+```
 
 #### 4. Your choice: Morin, Exercise 1.2, 1.3, or 1.4 (pick one)
 
